@@ -1,7 +1,6 @@
 
 import React from "react";
 
-import {Link} from "react-router-dom";
 import ImageHeader from "../components/ImageHeader"
 import TextField from "../components/TextField";
 import Button from "../components/Button";

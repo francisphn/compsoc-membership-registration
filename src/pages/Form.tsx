@@ -3,8 +3,6 @@ import React from "react";
 
 import {Link} from "react-router-dom";
 import ImageHeader from "./../components/ImageHeader"
-import TextField from "../components/TextField";
-import Button from "../components/Button";
 
 const Form = () => {
 
@@ -43,7 +41,7 @@ const Form = () => {
                 }
 
                 const Airtable = require('airtable');
-                const base = new Airtable({apiKey: 'key9D6wPU3kXukSPx'}).base('appFeXZSMbZRJmqys');
+                const base = new Airtable({apiKey: "Your Airtable key"}).base("Your base key");
 
                 base('Membership 2022').create([
                     {
