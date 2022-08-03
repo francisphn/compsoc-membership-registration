@@ -1,8 +1,17 @@
-# Getting Started with Create React App
+# Simple Club Sign Up Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with Create React App. It connects to Airtable using Airtable's API.
 
-## Available Scripts
+
+## Getting started
+1. Open `App.tsx` and paste your Firebase config (if you plan to use Firebase Hosting)
+2. Open `Form.tsx` and give it some customisation in both the React and the function `handleSubmit`.
+3. Sign up and create a base in Airtable as well as a table. Airtable is an excellent spreadsheet service that works like a database. Then have a look [here](https://airtable.com/api) to get your API and base keys.
+4. Paste your Airtable API key and base key, as well as make further changes to customise how data should be handled in `handleSubmit`.
+
+Enjoy!
+
+## Available scripts
 
 In the project directory, you can run:
 
